@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/appLogo"
+        android:layout_width="218dp"
+        android:layout_height="207dp"
+        android:layout_marginBottom="32dp"
+        android:contentDescription="App Logo"
+        android:src="@drawable/app_logo" />
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to BI3 Spectrometer"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@color/black"
+        android:alpha="1.0"
+        android:layout_centerInParent="true"/>
+</LinearLayout>
